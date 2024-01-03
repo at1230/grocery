@@ -1,0 +1,92 @@
+﻿
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa; 
+}
+
+.container {
+    text-align: center;
+    background-color: #ffffff; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 80%; 
+}
+
+h1 {
+    color: #007bff; 
+}
+#successMessage {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    width: 100%;
+    text-align: center;
+    margin-block-start: 10px;
+}
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #28a745; 
+    color: #ffffff; 
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+    button:hover {
+        background-color: #218838; 
+    }
+
+input {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ced4da; 
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #dee2e6;
+}
+
+th {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+tr:hover {
+    background-color: #f2f2f2;
+}
+
+.btn-danger {
+    background-color: #dc3545; 
+    color: #ffffff; 
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+    .btn-danger:hover {
+        background-color: #c82333; 
+    }
